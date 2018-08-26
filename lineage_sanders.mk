@@ -26,12 +26,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 #Inherit device configuration
 $(call inherit-product, device/motorola/sanders/device.mk)
 
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_sanders
 PRODUCT_DEVICE := sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G5s Plus
 PRODUCT_MANUFACTURER := motorola
+
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2019-08-01
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
