@@ -15,3 +15,6 @@
 #
 
 LOCAL_PATH := device/motorola/sanders
+
+# call the proprietary setup
+$(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
