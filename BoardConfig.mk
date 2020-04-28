@@ -40,6 +40,10 @@ TARGET_CPU_CORTEX_A53 := true
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+BOARD_HAVE_BLUETOOTH_QCOM := true
+
 # Extracted with libbootimg
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=30 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
