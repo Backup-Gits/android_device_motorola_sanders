@@ -37,7 +37,19 @@
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
+            <name>IAdaptiveBacklight</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IDisplayModes</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
             <name>IColor</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISunlightEnhancement</name>
             <instance>default</instance>
         </interface>
     </hal>
