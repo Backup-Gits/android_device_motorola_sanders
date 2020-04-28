@@ -16,6 +16,10 @@
 
 LOCAL_PATH := device/motorola/sanders
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
