@@ -65,6 +65,9 @@ TARGET_LINUX_KERNEL_VERSION := 3.18
 TARGET_KERNEL_CONFIG := sanders_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 
+# Power
+TARGET_USES_INTERACTION_BOOST := true
+
 # Use these flags if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
