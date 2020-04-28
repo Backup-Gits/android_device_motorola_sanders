@@ -115,6 +115,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
 	android.hardware.sensors@1.0-service
 
+# Trust
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client \
