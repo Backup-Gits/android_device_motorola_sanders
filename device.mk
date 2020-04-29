@@ -200,6 +200,9 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
 	android.hardware.sensors@1.0-service
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:system/vendor/etc/sensors/hals.conf
+
 # Trust
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
