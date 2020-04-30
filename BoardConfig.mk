@@ -113,3 +113,6 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 # Device Tree
 BOARD_USES_DT := true
+
+# Inherit from the proprietary version
+-include vendor/motorola/sanders/BoardConfigVendor.mk
