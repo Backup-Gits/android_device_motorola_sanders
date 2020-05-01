@@ -94,6 +94,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service
 
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
