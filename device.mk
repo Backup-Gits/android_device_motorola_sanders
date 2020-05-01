@@ -260,6 +260,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.mmi.rc \
+    init.mmi.usb.rc \
+    init.target.rc \
+    init.qcom.rc
+    
+PRODUCT_PACKAGES += \
+    init.mmi.usb.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh\
+    init.qcom.sh
+
+
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/rootdir/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
