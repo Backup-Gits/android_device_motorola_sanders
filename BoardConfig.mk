@@ -38,7 +38,7 @@ TARGET_CPU_VARIANT := cortex-a53
 TARGET_CPU_CORTEX_A53 := true
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := sanders
+TARGET_OTA_ASSERT_DEVICE := sanders,sanders_retail
 
 # Binder
 TARGET_USES_64_BIT_BINDER := true
