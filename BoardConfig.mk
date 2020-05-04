@@ -77,6 +77,9 @@ TARGET_USES_ION := true
 # HIDL
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sanders
+
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
