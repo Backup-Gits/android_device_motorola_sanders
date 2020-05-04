@@ -109,6 +109,9 @@ TARGET_USES_INTERACTION_BOOST := true
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAl_PATH)/releasetools
+
 # Use these flags if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true

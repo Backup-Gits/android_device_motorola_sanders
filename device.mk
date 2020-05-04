@@ -285,6 +285,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/rootdir/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
+# Releasetools script
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/bin/deunify.sh:$(TARGET_COPY_OUT_SYSTEM)/vendor/bin/deunify.sh
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
