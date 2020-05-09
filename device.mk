@@ -107,11 +107,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0
 
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
-
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
