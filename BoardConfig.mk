@@ -46,6 +46,11 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := sanders,sanders_retail
 
+# Audio
+BOARD_SUPPORTS_SOUND_TRIGGER := true
+BOARD_USES_ALSA_AUDIO := true
+USE_XML_AUDIO_POLICY_CONF := 1
+
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
