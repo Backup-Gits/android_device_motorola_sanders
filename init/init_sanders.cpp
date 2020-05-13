@@ -78,7 +78,7 @@ void vendor_load_properties()
 
     // sku
     std::string sku = android::base::GetProperty("ro.boot.hardware.sku", "");
-    property_override_dual("ro.product.model", "ro.vendor.product.model", sku.c_str());
+    property_override_dual("ro.product.model", "ro.product.vendor.model", sku.c_str());
 
     // fingerprint
     property_override("ro.build.description", "sanders-user 8.1.0 OPS28.65-36 9fea release-keys");
